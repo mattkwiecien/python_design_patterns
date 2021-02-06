@@ -11,7 +11,7 @@ class RestService(object):
         self._factory = api_dto_factory
         self._web_client = web_client
 
-    def GetCompanyList(self):
+    def get_company_list(self):
         responseJson = self._web_client.company_list()
         companyDtoList = self._factory.company_list(responseJson)
         return companyDtoList

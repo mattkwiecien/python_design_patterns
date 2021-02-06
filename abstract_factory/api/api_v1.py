@@ -1,4 +1,5 @@
 import json
+from util import JsonConvert
 
 
 class ApiV1(object):
@@ -22,7 +23,7 @@ class ApiV1(object):
                 "1234 Fake Ave, Chicago, IL, 60606"
             )
         ]
-        return json.dumps(companies)
+        return JsonConvert.serialize(companies)
 
 
 class ApiCompanyV1(object):

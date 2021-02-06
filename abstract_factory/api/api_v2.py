@@ -1,4 +1,5 @@
 import json
+from util import JsonConvert
 
 
 class ApiV2(object):
@@ -31,7 +32,7 @@ class ApiV2(object):
                 "60606"
             )
         ]
-        return json.dumps(companies)
+        return JsonConvert.serialize(companies)
 
 
 class ApiCompanyV2(object):
