@@ -1,7 +1,7 @@
-from ..factory.company import CompanyDto
+from abstract_factory.factory.company import CompanyDto
 
 
-class MyCompany(object):
+class Company(object):
     def __init__(self, company_dto: CompanyDto):
         self.name = company_dto.name
         self.id = company_dto.id

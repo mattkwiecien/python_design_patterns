@@ -4,7 +4,7 @@ import json
 class ApiV2(object):
 
     @staticmethod
-    def get_company_list():
+    def list_companies():
         companies = [
             ApiCompanyV2(
                 "Test 1",

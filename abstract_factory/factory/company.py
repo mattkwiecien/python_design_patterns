@@ -19,6 +19,7 @@ class CompanyV2(CompanyDto):
 
     @property
     def address(self):
-        return self.st_address + ", " + self.city + ", " + self.st + ", " + self.zip
+        return self.st_address + ", " + self.city + ", " + self.st + ", " + \
+            self.zip
 
     pass
