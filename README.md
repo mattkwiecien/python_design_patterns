@@ -7,6 +7,9 @@ This project is doing just that - implementing various design pattners the "Pyth
 ### Design Patterns Included
 
 * Abstract Factory 
-  * Implemented in the `abstract_factory` folder in the root directory
+  * Implemented in the `abstract_factory` folder in the root directory.
   * Demonstrates how to create version independent creator/product objects to facilitate loose coupling to external dependencies.
+* Decorator
+  * Implemented in the `decorator` folder in the root directory.
+  * This pattern (a personal favorite) demonstrates how to attach new behaviors and functionality to objects without modifying the other objects.
 * More to come...
